@@ -101,6 +101,7 @@ main {
     font-size: 35px;
     font-weight: 700;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .section-discription {
@@ -158,8 +159,54 @@ main {
     margin-bottom: 20px;
 }
 
-.skill-discription {
+.skill-discription,
+.resume-driscription {
     color: #757575;
     font-size: 16px;
     font-weight: 400;
 }
+
+/* my resume part style here  */
+
+.A-summary-of-My-Resume {
+    margin-top: 130px;
+}
+
+.resumes {
+    display: flex;
+    gap: 70px;
+}
+
+.resume-sceand-tital {
+    margin-top: 110px;
+    margin-bottom: 30px;
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.headline {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.resume-driscription {
+    margin-bottom: 30px;
+}
+
+.resume-button {
+    text-align: center;
+    margin: 50px 0 110px 0;
+}
+
+/* footer part styles is here  */
