@@ -97,7 +97,8 @@ main {
     padding: 130px 155px;
 }
 
-.section-title {
+.section-title,
+.contact-title {
     font-size: 35px;
     font-weight: 700;
     margin-bottom: 30px;
@@ -210,3 +211,48 @@ main {
 }
 
 /* footer part styles is here  */
+
+footer {
+    background: #FFF8F3;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    gap: 120px;
+    padding: 130px 230px;
+}
+
+.contact input[type="text"],
+input[type="email"],
+textarea {
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+input {
+    height: 64px;
+}
+
+.contact-title {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.contact-connect {
+    padding-right: 100px;
+}
+
+.contact input {
+    display: block;
+}
+
+.contact .section-discription {
+    margin-bottom: 30px;
+}
+
+.contact a {
+    margin-right: 24px;
+}
