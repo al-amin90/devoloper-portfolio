@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.buttton-paimary {
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+    padding: 18px 35px;
+}
+
+.header {
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+/* header and navigation styles */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 225px;
+    padding-top: 50px;
+}
+
+.nav-title {
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    font-size: 20px;
+    font-weight: 400;
+    list-style: none;
+    margin-left: 50px;
+    color: #474747;
+}
+
+.text-paimary {
+    color: #FD6E0A;
+}
+
+/* Banner styles here */
+
+.banner {
+    display: flex;
+    margin: 0 40px 0 225px;
+    align-items: center;
+}
+
+.banner-sub-title {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-title {
+    color: #181818;
+    font-size: 85px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.banner-discription {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+/* main style here */
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* section about style  */
+
+.about {
+    margin-top: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    text-align: center;
+    padding: 130px 155px;
+}
+
+.section-title {
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.section-discription {
+    color: var(--dark-03, #757575);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.about-information {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-headline {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.section-line {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* what i do styles is here  */
+
+.what-i-do {
+    margin-top: 130px;
+    text-align: center;
+    padding: 0 115px;
+}
